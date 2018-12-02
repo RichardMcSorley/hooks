@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+  hooks:
+    build: .
+    ports:
+      - "6000:6000"
+    restart: always
